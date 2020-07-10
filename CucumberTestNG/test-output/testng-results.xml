@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1519" started-at="2020-07-10T03:22:15Z" finished-at="2020-07-10T03:22:17Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="CustomAbstractTestNGCucumberTestsWithTag.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.GenericRunnerWithTags@7692d9cc]" name="runScenario" class="custom.runners.CustomAbstractTestNGCucumberTestsWithTag"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="1519" started-at="2020-07-10T03:22:15Z" finished-at="2020-07-10T03:22:17Z">
+      <class name="testrunner.GenericRunnerWithTags">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.GenericRunnerWithTags@7692d9cc]" name="setUpClass" is-config="true" duration-ms="160" started-at="2020-07-10T08:52:15Z" finished-at="2020-07-10T08:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.GenericRunnerWithTags@7692d9cc]" name="runScenario" duration-ms="303" started-at="2020-07-10T08:52:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-10T08:52:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature called sample"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.GenericRunnerWithTags@7692d9cc]" name="runScenario" duration-ms="2" started-at="2020-07-10T08:52:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-10T08:52:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature called sample"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.GenericRunnerWithTags@7692d9cc]" name="runScenario" duration-ms="2" started-at="2020-07-10T08:52:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-10T08:52:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature called test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.GenericRunnerWithTags@7692d9cc]" name="tearDownClass" is-config="true" duration-ms="46" started-at="2020-07-10T08:52:17Z" finished-at="2020-07-10T08:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.GenericRunnerWithTags -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

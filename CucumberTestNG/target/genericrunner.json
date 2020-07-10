@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-10T03:22:17.170Z",
+        "before": [
+          {
+            "result": {
+              "duration": 675900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "feature-called-sample;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 193600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "This is sample",
+            "match": {
+              "location": "StepDefinitions.this_is_sample()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-10T03:22:17.175Z",
+        "before": [
+          {
+            "result": {
+              "duration": 136200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "",
+        "description": "",
+        "id": "feature-called-sample;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 114900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "This is another sample",
+            "match": {
+              "location": "StepDefinitions.this_is_another_sample()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test4"
+          }
+        ]
+      }
+    ],
+    "name": "Feature called sample",
+    "description": "",
+    "id": "feature-called-sample",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/sample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-10T03:22:17.179Z",
+        "before": [
+          {
+            "result": {
+              "duration": 144800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test1",
+        "description": "",
+        "id": "feature-called-test;test1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 119000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I watched Onward today",
+            "match": {
+              "location": "StepDefinitions.i_watched_onward_today()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Feature called test",
+    "description": "",
+    "id": "feature-called-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/test.feature",
+    "tags": []
+  }
+]
